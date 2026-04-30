@@ -4,7 +4,7 @@ eBay screwed us shippers a while back when they made labels not fit standard pri
 
 This small Python utility auto-crops shipping label PDFs (eBay, USPS, UPS, FedEx, Pitney Bowes) down to just the label content — so they print cleanly on a 4×6 thermal label printer instead of as a tiny rectangle on a full sheet of paper.
 
-No carrier-specific logic. The script renders the page, finds the bounding box of non-white pixels, and crops to that region. Works on any label PDF regardless of where the carrier decided to put the label on the page.
+If the image is still not aligned properly, try adjusting to either Portrait or Landscape Mode; And possibly any further settings from there such as Scale percentage.
 
 ## Why
 
