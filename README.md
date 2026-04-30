@@ -10,6 +10,12 @@ No carrier-specific logic. The script renders the page, finds the bounding box o
 
 Carrier-generated PDFs come on letter-size pages with the actual 4×6 label parked somewhere in a corner. Printing them directly to a thermal printer either scales the whole page down (label becomes unreadable) or chops off half the label. The fix everyone ends up using is "open in Acrobat, manually crop, save, print" — every single time. This automates that.
 
+## Before / After
+
+![Original PDF — label tucked in a corner of letter-size page](ebay_before.png)
+
+![After cropping — clean 4x6 ready to print](ebay_after.png)
+
 ## Install
 
 ```
